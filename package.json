@@ -9,6 +9,9 @@
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
     },
+    "engines": {
+        "node": "18.x"
+    },
     "dependencies": {
         "framer-motion": "^10.16.4",
         "lucide-react": "^0.292.0",
